@@ -22,15 +22,6 @@ This project is a grid-based game simulation involving two players. The grid is 
 - Players take turns destroying and adding cells.
 - The game advances through generations according to a set of rules based on neighboring cells.
   
-## Code Overview
-
-- **`createBlankGrid(rows, columns)`**: Generates a grid with all cells initialized to `0`.
-- **`printGrid(grid, rows, column)`**: Prints the current state of the grid to a file (`grid.txt`), which is then displayed in the console.
-- **`advanceByGeneration(grid, row, column, player)`**: Advances the grid based on the game’s rules.
-- **`turn(grid, player, rows, columns)`**: Handles player turns, including destroying and adding cells.
-- **`neighborfinder(cell, grid, rows, columns)`**: Finds neighboring cells around a given cell.
-- **`end(grid, player, row, col)`**: Checks if the game has ended based on the grid state.
-
 ## Pattern Loader
 
 The game allows loading a predefined pattern of cells to jump-start the gameplay. Patterns are stored in `.txt` files and can be loaded onto the grid.
