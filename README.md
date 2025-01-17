@@ -1,4 +1,4 @@
-# Grid Game
+# Conway's Game of Life
 
 ## Description
 
